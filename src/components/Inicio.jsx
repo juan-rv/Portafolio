@@ -7,7 +7,7 @@ const Inicio = () => {
     <div className="inicio">
       <div className="card">
         <img src={image} />
-        <h1> Juan Rodriguez</h1>
+        <h1> Juan Rodríguez</h1>
         <h2>Web Developer</h2>
         <p>Bogotá - Colombia</p>
       </div>

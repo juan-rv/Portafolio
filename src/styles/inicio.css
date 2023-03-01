@@ -1,6 +1,6 @@
 .inicio {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 22% 78%;
 }
 
 /* .card {
@@ -10,22 +10,23 @@
 
 .card img {
     border-radius: 50% ;
-    width: 330px;
-    height: 330px;
-    margin-left: 25px;
-    margin-top: 20px; 
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 40px; 
 }
 
 .card h1 {
     color: #c9d1d9;
-    margin-left: 30px;
+    margin-left: 25px;
     font-size: 30px;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .card h2 {
     color: #8b949E;
-    margin-left: 30px;
+    margin-left: 25px;
     font-size: 22px;
     font-weight: 400;
     margin-top: 0;
@@ -36,7 +37,7 @@
     color: #c9d1d9;
     font-size: 22px;
     font-weight: 200px;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-top: 3px;
 }
 
@@ -45,7 +46,7 @@
     border: solid 0.3px #8b949e86;
     border-radius:5px;
     margin-top: 50px;
-    width: 95%;
+    width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto ;
