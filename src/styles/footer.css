@@ -1,0 +1,28 @@
+.footer {
+    background: rgb(22,27,34);
+    height: 120px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    
+    font-size: 40px;
+    text-align: center;
+    
+}
+.icon svg{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:20px;
+    color: #c9d1d9;
+    
+}
+
+.text p {
+    color: #c9d1d9;
+    text-align: center;
+    font-size: 14;
+    margin: 0;
+}
