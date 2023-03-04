@@ -1,5 +1,5 @@
 .footer {
-    background: rgb(22,27,34);
+    background: rgba(22, 27, 34, 0.411);
     height: 120px;
     margin-top: 40px;
     position: relative;
@@ -7,12 +7,11 @@
 }
 
 .icon {
-    
-    font-size: 40px;
-    text-align: center;
-    
+     text-align: center;
 }
 .icon svg{
+    font-size: 30px;
+   
     margin-left: 5px;
     margin-right: 5px;
     margin-top:20px;
@@ -20,9 +19,16 @@
     
 }
 
+
+.icon svg:hover{
+    color: white;
+    
+}
+
 .text p {
     color: #c9d1d9;
     text-align: center;
     font-size: 14;
+    font-weight: 400;
     margin: 0;
 }
