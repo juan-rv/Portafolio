@@ -111,63 +111,69 @@ const Contacto = () => {
   };
 
   return (
-    <div className="contain">
-      <h1>Me encantaría saber sobre ti, ponte en contacto 👋</h1>
-      <form className="first_contain" ref={form} onSubmit={(e) => sendEmail(e)}>
-        <div className="second_contain">
-          <div className="name">
-            <input
-              type="text"
-              placeholder="Nombre"
-              name="user_name"
-              onChange={(e) => handleChange(e)}
-            />
-            {errors.user_name && <h4>{errors.user_name}</h4>}
-          </div>
-          <div className="apellido">
-            <input
-              type="text"
-              placeholder="Apellido"
-              name="user_lastName"
-              onChange={(e) => handleChange(e)}
-            />
-            {errors.user_lastName && <h4>{errors.user_lastName}</h4>}
-          </div>
+    <div className="contain_form">
+      <div className="contain">
+        <h1>Me encantaría saber sobre ti, ponte en contacto 👋</h1>
+        <form
+          className="first_contain"
+          ref={form}
+          onSubmit={(e) => sendEmail(e)}
+        >
+          <div className="second_contain">
+            <div className="name">
+              <input
+                type="text"
+                placeholder="Nombre"
+                name="user_name"
+                onChange={(e) => handleChange(e)}
+              />
+              {errors.user_name && <h4>{errors.user_name}</h4>}
+            </div>
+            <div className="apellido">
+              <input
+                type="text"
+                placeholder="Apellido"
+                name="user_lastName"
+                onChange={(e) => handleChange(e)}
+              />
+              {errors.user_lastName && <h4>{errors.user_lastName}</h4>}
+            </div>
 
-          <div className="phone">
-            <input
-              type="text"
-              placeholder="Telefono"
-              name="userPhone"
-              onChange={(e) => handleChange(e)}
-            />
-            {errors.userPhone && <h4>{errors.userPhone}</h4>}
-          </div>
+            <div className="phone">
+              <input
+                type="text"
+                placeholder="Telefono"
+                name="userPhone"
+                onChange={(e) => handleChange(e)}
+              />
+              {errors.userPhone && <h4>{errors.userPhone}</h4>}
+            </div>
 
-          <div className="email">
-            <input
-              type="text"
-              placeholder="Email"
-              name="userEmail"
-              onChange={(e) => handleChange(e)}
-            />
-            {errors.userEmail && <h4>{errors.userEmail}</h4>}
-          </div>
+            <div className="email">
+              <input
+                type="text"
+                placeholder="Email"
+                name="userEmail"
+                onChange={(e) => handleChange(e)}
+              />
+              {errors.userEmail && <h4>{errors.userEmail}</h4>}
+            </div>
 
-          <div className="message">
-            <textarea
-              type="text"
-              placeholder="Mensaje"
-              name="message"
-              onChange={(e) => handleChange(e)}
-            />
-            {errors.message && <h4>{errors.message}</h4>}
+            <div className="message">
+              <textarea
+                type="text"
+                placeholder="Mensaje"
+                name="message"
+                onChange={(e) => handleChange(e)}
+              />
+              {errors.message && <h4>{errors.message}</h4>}
+            </div>
+            <div className="send">
+              <input type="submit" value="Enviar" />
+            </div>
           </div>
-          <div className="send">
-            <input type="submit" value="Enviar" />
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 };

@@ -1,20 +1,20 @@
+.contain_form {
+    padding-top: 90px;
+}
 .contain {
     background-color: #0d1117;
     width: 60%;
     padding: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     border: solid 1px #30363d;
     border-radius: 4px;
-    box-shadow: 0 3px 6px #010409;
 }
 
 .contain h1 {
     color: #c9d1d9;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 10px;
     border-bottom: solid 1px #30363d;
 }
 
