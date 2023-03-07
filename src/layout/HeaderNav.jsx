@@ -1,15 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import image from "../assets/juan.jpeg";
 import "../styles/headerNav.css";
 
 const HeaderNav = () => {
+  const [navBar, setNavBar] = useState(false);
+
+  const changeBg = () => {
+    //console.log(window.scrollY);
+    if (window.scrollY >= 40.5) {
+      setNavBar(true);
+    } else {
+      setNavBar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBg);
+
   return (
     <header className="header">
-      <div className="first_nav">
-        <img src={image} />
-        <h3>Juan Rodríguez</h3>
-      </div>
+      {navBar ? (
+        <div className="first_nav">
+          <img src={image} />
+          <h3>Juan Rodríguez</h3>
+        </div>
+      ) : (
+        <div className="first_nav"></div>
+      )}
       <div>
         <nav className="nav">
           <ul>

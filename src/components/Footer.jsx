@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="icon">
-        <a href="https://www.linkedin.com/in/juan-rv/">
+        <a href="https://www.linkedin.com/in/juan-rv/" target="_blank">
           <AiFillLinkedin />
         </a>
 
-        <a href="htpps://www.github.com/juan-rv/">
+        <a href="https://github.com/juan-rv" target="_blank">
           <AiFillGithub />
         </a>
       </div>
@@ -18,7 +18,7 @@ const Footer = () => {
         <p> Copyright &copy; 2023 - Todos los derechos reservados</p>
         <p>
           Este sitio web es propiedad y administrado por
-          <strong>Juan Rodríguez</strong>
+          <strong> Juan Rodríguez</strong>
         </p>
       </div>
     </div>

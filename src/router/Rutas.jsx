@@ -12,17 +12,20 @@ const Rutas = () => {
   return (
     <BrowserRouter>
       {/* Header y navegacion */}
-      <HeaderNav />
+      <HeaderNav className="head" />
 
-      <Routes>
-        <Route path="/inicio" element={<Inicio />} />
-        <Route path="/" element={<Navigate to="/inicio" />} />
-        <Route path="/servicios" element={<Servicios />} />
-        <Route path="/portafolio" element={<Portafolio />} />
-        <Route path="/curriculum" element={<Curriculum />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <section className="contenido">
+        <Routes>
+          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/" element={<Navigate to="/inicio" />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/portafolio" element={<Portafolio />} />
+          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </section>
+
       {/* Footer */}
     </BrowserRouter>
   );
