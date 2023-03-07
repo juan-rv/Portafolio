@@ -1,3 +1,171 @@
-.conta {
-    background: red;
+.contain {
+    background-color: #0d1117;
+    width: 60%;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid 1px #30363d;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #010409;
+}
+
+.contain h1 {
+    color: #c9d1d9;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #30363d;
+}
+
+.first_contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #30363d;
+}
+
+.first_info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ .name input[type=text]
+ {
+     width: 90%;
+    height: 40px;
+    font-size: 25px;
+    color: #c9d1d9;
+    padding: 12px 20px ;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #30363d;
+    outline: none;
+}
+
+.second_contain {
+    width: 75%;
+    margin: 40px;
+}
+
+.name {
+    margin: 20px;
+}
+
+ .name input[type=text]:focus {
+    border: 2px solid #30363d
+}
+
+.contain h4 {
+    text-decoration: 2px underline rgba(56,139,253,0.4);
+    text-align: center;
+    font-size: 15px;
+    color: #c9d1d9;
+    margin: 5px 0 0 0;
+    font-weight: 200;
+}
+
+.apellido {
+    margin: 20px;
+}
+
+ .apellido input[type=text]{
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+    color: #c9d1d9;
+    padding: 12px 20px ;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #30363d;
+    outline: none;
+}
+
+
+
+ .apellido input[type=text]:focus {
+    border: 2px solid #30363d
+}
+
+
+.phone {
+    margin: 20px;
+}
+
+ .phone input[type=text]{
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+    color: #c9d1d9;
+    padding: 12px 20px ;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #30363d;
+    outline: none;
+}
+
+
+
+ .phone input[type=text]:focus {
+    border: 2px solid #30363d
+}
+
+.email {
+    margin: 20px;
+}
+
+ .email input[type=text]{
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+    color: #c9d1d9;
+    padding: 12px 20px ;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #30363d;
+    outline: none;
+}
+
+ .email input[type=text]:focus {
+    border: 2px solid #30363d
+}
+
+.message {
+    margin: 20px;
+}
+
+ .message textarea[type=text]{
+    max-width: 90%;
+    min-width: 89.5%;
+    max-height: 150px;
+    min-height: 149.5px;
+    font-size: 15px;
+    color: #c9d1d9;
+    padding: 12px 20px ;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #30363d;
+    outline: none;
+}
+
+ .message textarea[type=text]:focus {
+    border: 2px solid #30363d
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send input[type=submit] {
+    background: #21262d;
+    font-size: 20px;
+    color: #c9d1d9;
+    padding: 10px 21px;
+    border: solid 1px;
+    border-radius: 6px;
+}
+.send input[type=submit]:hover{
+    background: #414852;
+    cursor: pointer;
 }
