@@ -1,5 +1,5 @@
 .services_contain {
-    padding-top: 95px;
+    padding-top: 60px;
 }
 
 .text_services {
@@ -46,6 +46,7 @@
     color: #c9d1d9;
     font-size: 29px;
     border-bottom: solid 0.5px #6e7681;
+    margin-top: 0;
 }
 
 .cards p {

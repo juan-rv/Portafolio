@@ -3,6 +3,14 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/footer.css";
 
 const Footer = () => {
+  const getYear = () => {
+    const fecha = new Date();
+    const year = fecha.getFullYear();
+    return year;
+  };
+
+  const actual = getYear();
+
   return (
     <div className="footer">
       <div className="icon">
@@ -15,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text">
-        <p> Copyright &copy; 2023 - Todos los derechos reservados</p>
+        <p> Copyright &copy; {actual} - Todos los derechos reservados</p>
         <p>
           Este sitio web es propiedad y administrado por
           <strong> Juan Rodríguez</strong>
