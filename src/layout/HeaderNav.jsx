@@ -50,7 +50,7 @@ const HeaderNav = () => {
           <ul>
             <li>
               <NavLink
-                to="/inicio"
+                to="/home"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Inicio
@@ -58,7 +58,7 @@ const HeaderNav = () => {
             </li>
             <li>
               <NavLink
-                to="/servicios"
+                to="/services"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Servicios
@@ -67,7 +67,7 @@ const HeaderNav = () => {
 
             <li>
               <NavLink
-                to="/portafolio"
+                to="/portfolio"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Portafolio
@@ -83,7 +83,7 @@ const HeaderNav = () => {
             </li>
             <li>
               <NavLink
-                to="/contacto"
+                to="/contact"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Contacto

@@ -32,3 +32,21 @@
     font-weight: 400;
     margin: 0;
 }
+
+/* responsive design for mobile */
+
+@media (max-width: 480px) { 
+
+    .footer {
+        margin: 0;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    .text p {
+        margin: 0;
+        font-size: 12px;
+        }
+}

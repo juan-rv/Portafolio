@@ -16,12 +16,12 @@ const Rutas = () => {
 
       <section className="contenido">
         <Routes>
-          <Route path="/inicio" element={<Inicio />} />
-          <Route path="/" element={<Navigate to="/inicio" />} />
-          <Route path="/servicios" element={<Servicios />} />
-          <Route path="/portafolio" element={<Portafolio />} />
+          <Route path="/home" element={<Inicio />} />
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/services" element={<Servicios />} />
+          <Route path="/portfolio" element={<Portafolio />} />
           <Route path="/curriculum" element={<Curriculum />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/contact" element={<Contacto />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </section>
