@@ -7,12 +7,14 @@ import Portafolio from "../components/Portafolio";
 import Servicios from "../components/Servicios";
 import HeaderNav from "../layout/HeaderNav";
 import Contacto from "../components/Contacto";
+import NavBarDos from "../layout/NavBarDos";
 
 const Rutas = () => {
   return (
     <BrowserRouter>
       {/* Header y navegacion */}
       <HeaderNav className="head" />
+      <NavBarDos />
 
       <section className="contenido">
         <Routes>

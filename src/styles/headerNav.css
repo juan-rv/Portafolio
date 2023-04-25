@@ -84,9 +84,6 @@
 @media (max-width: 480px) { 
 
     .header {
-        width: 200px
-    } 
-    .nav {
         display: none;
     }
 }
