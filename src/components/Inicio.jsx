@@ -1,40 +1,28 @@
 import React from "react";
-import "../styles/inicio.css";
+import { useTranslation } from "react-i18next";
 import { frontend } from "../api/frontend";
 import { backend } from "../api/backend";
 import { tecnologies } from "../api/tecnologies";
 import image from "../assets/juan.jpeg";
+import "../styles/inicio.css";
 
 const Inicio = () => {
+  const [t, i18next] = useTranslation("global");
+
   return (
     <div className="inicio">
       <div className="card">
         <img src={image} />
         <h1> Juan Rodríguez</h1>
-        <h2>Web Developer</h2>
+        <h2>{t("inicio.profesion")}</h2>
         <p>Bogotá - Colombia</p>
       </div>
       <div className="info">
-        <h1> Hola 👋, Soy Juan Rodríguez</h1>
-
-        <p>
-          Recien graduado de la carrera en desarrollo web Full Stack Developer,
-          con mayor afinidad al frontend, actualmente me encuentro en busqueda
-          de nuevos desafíos en empresas y/o proyectos donde pueda aportar desde
-          mis conocimientos en desarrollo web y demás.
-        </p>
-        <p>
-          He venido formando mi experiencia de trabajo en equipo desde la
-          metodología SCRUM, desarrollando desde la parte del frontend, backend
-          y bases de datos.
-        </p>
-
-        <p>
-          Cuento con un titulo de licenciatura en biología, intereses sobre la
-          historia natural, con conocimientos en VBA Excell y estudios musicales
-          aplicados al piano.
-        </p>
-        <h2>Habilidades:</h2>
+        <h1>{t("inicio.hello")}</h1>
+        <p>{t("inicio.description_one")}</p>
+        <p>{t("inicio.description_two")}</p>
+        <p>{t("inicio.description_three")}</p>
+        <h2>{t("inicio.skills")}</h2>
         <h3>Frontend:</h3>
         <div className="skills">
           {frontend.map((front) => (
@@ -53,7 +41,7 @@ const Inicio = () => {
             </article>
           ))}
         </div>
-        <h3>Tecnologias</h3>
+        <h3>{t("inicio.tecnologies")}</h3>
         <div className="skills">
           {tecnologies.map((tec) => (
             <article key={tec.id}>

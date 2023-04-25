@@ -1,10 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import image from "../assets/juan.jpeg";
 import "../styles/headerNav.css";
 
 const HeaderNav = () => {
   const [navBar, setNavBar] = useState(false);
+
+  const [t, i18n] = useTranslation("global");
+
+  function changeLanguage(lang) {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  }
+  useEffect(() => {
+    const language = localStorage.getItem("language");
+    if (language) {
+      i18n.changeLanguage(language);
+    }
+  }, [i18n]);
+
+  function isSelected(lang) {
+    return i18n.language === lang ? "active" : "";
+  }
 
   const changeBg = () => {
     //console.log(window.scrollY);
@@ -73,6 +91,10 @@ const HeaderNav = () => {
             </li>
           </ul>
         </nav>
+      </div>
+      <div>
+        <button onClick={() => changeLanguage("es")}>ES</button>
+        <button onClick={() => changeLanguage("en")}>En</button>
       </div>
     </header>
   );

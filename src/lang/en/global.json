@@ -2,5 +2,20 @@
     "header" : {
         "hello world" : "Hello mini world's from Comlombia",
         "error": "you begime to login in a page than dont exist."
+    },
+
+    "inicio": {
+        "profesion": "Web Developer",
+        "hello" : "Hi 👋, I'm Juan Rodríguez",
+        "description_one" : "Recent graduate of the career in web development Full Stack Developer, with greater affinity to the frontend, I am currently looking for new challenges in companies and / or projects where I can contribute with my knowledge in web development and others.",
+        "description_two" : "I have been building my teamwork experience from the SCRUM methodology, developing from the frontend, backend and databases.",
+        "description_three" : "I have a bachelor's degree in biology, interests in natural history, knowledge in VBA Excell and music studies applied to piano.",
+        "skills": "Skills.",
+        "tecnologies" : "Technologies:"
+    },
+    "footer" : {
+        "rights" : "All rights reserved.",
+        "title" : "This website is owned and operated by"
+        
     }
 }

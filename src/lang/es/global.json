@@ -2,5 +2,19 @@
     "header": {
         "hello world" : "hola mundos de colombia",
         "error" : "Acabas de ingresar a una pagina que no existe"
+    },
+     "inicio": {
+        "profesion": "Desarrollador Web",
+         "hello" : "Hola 👋, Soy Juan Rodríguez",
+         "description_one" : "Recien graduado de la carrera en desarrollo web Full Stack Developer, con mayor afinidad al frontend, actualmente me encuentro en busqueda de nuevos desafíos en empresas y/o proyectos donde pueda aportar desde mis conocimientos en desarrollo web y demás.",
+         "description_two": "He venido formando mi experiencia de trabajo en equipo desde la metodología SCRUM, desarrollando desde la parte del frontend, backend y bases de datos.",
+         "description_three": "Cuento con un titulo de licenciatura en biología, intereses sobre la historia natural, con conocimientos en VBA Excell y estudios musicales aplicados al piano.",
+         "skills" : "Habilidades.",
+         "tecnologies": "Tecnologías:"
+    },
+    "footer" : {
+        "rights": "Todos los derechos reservados.",
+        "title" : "Este sitio web es propiedad y administrado por"
+
     }
 }

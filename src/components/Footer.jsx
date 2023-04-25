@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/footer.css";
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
+
   const getYear = () => {
     const fecha = new Date();
     const year = fecha.getFullYear();
@@ -23,9 +26,12 @@ const Footer = () => {
         </a>
       </div>
       <div className="text">
-        <p> Copyright &copy; {actual} - Todos los derechos reservados</p>
         <p>
-          Este sitio web es propiedad y administrado por
+          {" "}
+          Copyright &copy; {actual} - {t("footer.rights")}
+        </p>
+        <p>
+          {t("footer.title")}
           <strong> Juan Rodríguez</strong>
         </p>
       </div>
