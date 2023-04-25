@@ -77,13 +77,45 @@
     border-bottom: solid 2px rgb(186,187,189) ;
 }
 
+.buttons_lang img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.espa.active img,
+.eng.active img {
+  border-bottom: solid 1px rgb(82, 80, 80);
+}
+
 
 
 /* responsive design for mobile */
 
-@media (max-width: 480px) { 
+@media (max-width: 767px) { 
 
     .header {
         display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+    
+    .header {
+        display: grid;
+        grid-template-columns: 80% 20%;
+
+    }
+
+    .first_nav {
+        display: none;
+    }
+    
+    .buttons_lang {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

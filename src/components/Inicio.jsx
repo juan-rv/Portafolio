@@ -12,10 +12,14 @@ const Inicio = () => {
   return (
     <div className="inicio">
       <div className="card">
-        <img src={image} />
-        <h1> Juan Rodríguez</h1>
-        <h2>{t("inicio.profesion")}</h2>
-        <p>Bogotá - Colombia</p>
+        <div className="card_img">
+          <img src={image} />
+        </div>
+        <div className="card_info">
+          <h1> Juan Rodríguez</h1>
+          <h2>{t("inicio.profesion")}</h2>
+          <p>Bogotá - Colombia</p>
+        </div>
       </div>
       <div className="info">
         <h1>{t("inicio.hello")}</h1>

@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import image from "../assets/juan.jpeg";
 import es from "../assets/espana.png";
 import en from "../assets/estados-unidos.png";
 import "../styles/NavBarDos.css";
 
 const NavBarDos = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [navBar, setNavBar] = useState(false);
 
   const [t, i18n] = useTranslation("global");
   function changeLanguage(lang) {
@@ -30,17 +28,6 @@ const NavBarDos = () => {
     setIsOpen(!isOpen);
   };
 
-  const changeBg = () => {
-    console.log(window.scrollY);
-    if (window.scrollY >= 400) {
-      setNavBar(true);
-    } else {
-      setNavBar(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeBg);
-
   return (
     <div className="navdos">
       <div className="burger-button-container">
@@ -59,21 +46,18 @@ const NavBarDos = () => {
           </div>
         )}
       </div>
-      <div>
-        {navBar ? (
-          <div className="min-nav">
-            <img src={image} alt="Juan Rodriguez" />
-            <h3>Juan Rodríguez</h3>
-          </div>
-        ) : (
-          <div> </div>
-        )}
-      </div>
+
       <div className="buttons_lang">
-        <buttom onClick={() => changeLanguage("es")}>
+        <buttom
+          className={`eng ${isSelected("es")}`}
+          onClick={() => changeLanguage("es")}
+        >
           <img src={es} alt="es" />
         </buttom>
-        <buttom onClick={() => changeLanguage("en")}>
+        <buttom
+          className={`eng ${isSelected("en")}`}
+          onClick={() => changeLanguage("en")}
+        >
           <img src={en} alt="en" />
         </buttom>
       </div>

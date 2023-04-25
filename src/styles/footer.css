@@ -35,7 +35,7 @@
 
 /* responsive design for mobile */
 
-@media (max-width: 480px) { 
+@media (max-width: 767px) { 
 
     .footer {
         margin: 0;

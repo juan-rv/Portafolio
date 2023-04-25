@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import image from "../assets/juan.jpeg";
+import es from "../assets/espana.png";
+import en from "../assets/estados-unidos.png";
+
 import "../styles/headerNav.css";
 
 const HeaderNav = () => {
@@ -92,9 +95,19 @@ const HeaderNav = () => {
           </ul>
         </nav>
       </div>
-      <div>
-        <button onClick={() => changeLanguage("es")}>ES</button>
-        <button onClick={() => changeLanguage("en")}>En</button>
+      <div className="buttons_lang">
+        <buttom
+          className={`eng ${isSelected("es")}`}
+          onClick={() => changeLanguage("es")}
+        >
+          <img src={es} alt="es" />
+        </buttom>
+        <buttom
+          className={`eng ${isSelected("en")}`}
+          onClick={() => changeLanguage("en")}
+        >
+          <img src={en} alt="en" />
+        </buttom>
       </div>
     </header>
   );
