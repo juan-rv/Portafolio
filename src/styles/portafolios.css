@@ -48,10 +48,6 @@
     border: solid 1px #30363d;
     border-radius: 10px;
     transition: background-color 0.9s ease-out;
-    -webkit-transition: background-color 0.9s ease-out;
-    -moz-transition: background-color 0.9s ease-out;
-    -ms-transition: background-color 0.9s ease-out;
-    -o-transition: background-color 0.9s ease-out;
 }
 
 .card_project:hover{
@@ -81,4 +77,55 @@
     margin-right: 30px;
     width: 10%;
     color: #a7adb6;
+}
+
+
+@media (max-width: 767px) { 
+
+    .portfolio {
+    padding: 15px;
+}
+    .card_project {
+        width: 100%;
+        display: block;
+    }
+
+    .img_project {
+        margin-top: 15px;
+    }
+    .img_project img {
+    width: 250px;
+    height: 200px;    
+    }
+    .content_card_project h2 {
+        text-align: center;
+    }
+
+    .content_card_project p {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1034px) {
+    .card_project {
+        width: 100%;
+        display: block;
+    }
+
+    
+    .img_project {
+        margin-top: 15px;
+    }
+    .content_card_project h2 {
+        text-align: center;
+    }
+
+    .content_card_project p {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
 }
