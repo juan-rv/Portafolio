@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { services } from "../api/services";
 import "../styles/servicios.css";
 
 const Servicios = () => {

@@ -44,6 +44,30 @@
         "third_title": "Other Services",
         "third_first_contain": "Dynamic tables in excel with macros according to the needs of your company or business.",
         "third_second_contain": "Design and publication of the corporate Brochure."
+    },
+    "portfolio" : {
+        "title": "Portfolio",
+        "first_title": "King Kong V Web Site. ",
+        "first_content_one": "This project consists of a website for a musical group from Bogota. The site is designed to provide information about the band, its members and its music. The site has been developed using React, CSS, JS and HTML to create a modern and easy to use user interface. In addition, the parallax effect has been used to create a more attractive user experience.",
+        "first_content_two" : "The website has several functionalities, such as a news and events section, a photo gallery, a contact section and a newsletter subscription form. A language switch button has also been incorporated to allow users to choose between Spanish and English and a responsive design.",
+        "second_title" : "Professional portfolio of the Colombian historian. ",
+        "second_content_one" : "This project consists of a professional portfolio for a Colombian historian. The portfolio has been developed using React, HTML, CSS and JavaScript, and its design is fully responsive so that it can be accessed from any device. It also has a language switching function, so that users can read the content in Spanish or English. It has also incorporated a dark mode and light mode design, so that users can choose their preference.",
+        "second_content_two": "The portfolio has several features, including a home page that introduces the historian and his or her work, a projects section that details the work done, a publications section that includes articles and essays, and a contact section that allows users to communicate with the historian. In addition, the portfolio includes a subscription form so that users can receive updates and news related to the historian's work.",
+        "third_title": "INDITROM SAS website.",
+        "third_content_one" : "This project consists of a website for the company INDITROM SAS, specialized in the design and creation of molds and dies for the Colombian industry. The site has been developed using React, JS, HTML and CSS, which has allowed to create a modern and attractive user interface.",
+        "third_content_two" : "The website has several functionalities, such as a services section, which details the different products offered by the company, a projects section, which shows examples of work carried out by the company, and a contact section, which allows users to communicate with the company to request quotes or make inquiries.",
+        "four_title":"Personal blog about technology and web development.",
+        "four_content_one":"This project consists of a personal blog focused on topics related to technology and web development. The blog was created using a blogging platform and customized with HTML, CSS and JavaScript to create a unique user experience.",
+        "four_content_two":"The blog has several functionalities, such as a posts section that addresses topics related to technology and web development. In addition, features such as a commenting system to encourage user participation, a search function to facilitate blog navigation, and a contact section for users to communicate with the blog author have been included.",
+        "five_title":"Social Network.",
+        "five_content_one":"This project consists of a social network designed to connect users with similar interests. The social network has been developed using technologies such as React, Node.js, MongoDB and CSS.",
+        "five_content_two":"The social network has several functionalities, such as a user registration and authentication system, the possibility of creating profiles and editing them with personal information, a search system for users and publications, the possibility of following other users and receiving notifications of their activities, and the ability to create publications, photos and videos to share with other users. A chat system has also been included so that users can communicate with each other.",
+        "six_title":"WeTravel web application, air bnb type.",
+        "six_content_one":"This project consists of an air bnb-like web application that allows users to publish their accommodations and other users to book and rent those accommodations. The application has been developed using technologies such as React, Redux, Node.js, Express and PostgreSQL.",
+        "six_content_two":"The web application has several functionalities, such as a user registration and authentication system, the possibility of creating profiles and editing them with personal information, the ability to publish accommodations with detailed descriptions, photographs and prices, an accommodation search system, and a booking and payment system. In addition, the application has an administration panel for accommodation owners to manage their publications and bookings.",
+        "seven_title":"RecipeBook.",
+        "seven_content_one":"RecipeBook is a full stack web application that allows users to browse and search for recipes using the Spoonacular API. The application has been developed using technologies such as React, Redux, Node.js, Express and PostgreSQL.",
+        "seven_content_two":"The web application has several functionalities, such as the ability to search for recipes using different search criteria, such as name, type of diet or score. Users can also create an account and log in to add their own recipes to the website and share them with other users. A system for filtering recipes by different criteria, such as diet type, score and alphabetical order, has also been implemented. This allows users to easily find the recipes they are looking for and get detailed information about them, such as ingredient list, preparation time and instructions."
 
     }
 }

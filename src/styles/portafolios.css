@@ -1,14 +1,12 @@
 .portfolio {
-    background-color: red;
     margin: 0;
     padding: 50px;
     height: 100%;
 }
 
 .title_portfolio {
-    background: green;
     margin-top: 40px;
-    border-bottom: 1px solid white;
+    border-bottom: 0.5px solid #6e7681;
 }
 
 .title_portfolio h1 {
@@ -17,6 +15,7 @@
     text-align: center;
     margin: 0;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .title_portfolio h2 {
@@ -38,27 +37,40 @@
 }
 
 .contain_projects {
-    background: yellow;
     margin-top: 40px;   
 }
 
 .card_project {
-    background-color: green;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 30% 70%;
+    background-color: #161b22cb;
+    border: solid 1px #30363d;
+    border-radius: 10px;
+    transition: background-color 0.9s ease-out;
+    -webkit-transition: background-color 0.9s ease-out;
+    -moz-transition: background-color 0.9s ease-out;
+    -ms-transition: background-color 0.9s ease-out;
+    -o-transition: background-color 0.9s ease-out;
+}
+
+.card_project:hover{
+    background-color: #222a36c7;
+    border: solid 1.5px #30363d;
+
 }
 
 .content_card_project h2 {     
         font-size: 30px;
+        color: #c9d1d9;
 }
 
 .content_card_project p {
     font-size: 18px;
+    color: #a7adb6;
 }
 
 .content_card_project ul {
-    background: blue;
     display: flex;
     align-items: center;
     justify-content:flex-start;
@@ -66,7 +78,7 @@
 }
 
 .content_card_project li {
-    background-color: bisque;
     margin-right: 30px;
     width: 10%;
+    color: #a7adb6;
 }
