@@ -89,7 +89,8 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     align-items: center;
 }
 
@@ -99,13 +100,19 @@
 
 .skills p {
     margin-top: 0;
-    text-align: center;
     font-weight: 400;
+}
+
+@media (min-width: 1035px) and (max-width: 1134px) {
+    .card img {
+    width: 240px;
+    height: 240px;
+    }
 }
 
 /* responsive design for tablets */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1034px) {
 
   .inicio {
     width: fit-content;
