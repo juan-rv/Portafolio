@@ -23,5 +23,27 @@
         "portfolio" : "Portfolio",
         "curriculum" : "Curriculum",
         "contact" : "Contact"
+    },
+    "services" : {
+        "title": "Services",
+        "containt_titel" : "Welcome to the services section. As a web developer, I offer a wide range of services to help companies and organizations achieve their online goals.",
+        "first_title": "Web Design and Development",
+        "first_first_sub": "Web Design: ",
+        "first_first_contain": "Creation of customized and unique website designs that reflect the brand's identity.",
+        "first_second_sub": "Web Development: ",
+        "first_second_contain": "Creation of customized web applications that meet specific customer needs.",
+        "first_third_sub": "Creation of Web sites from 0: ",
+        "first_third_contain": "Complete website creation services from 0, from planning to implementation.",
+        "first_four_sub": "Search Engine Optimization: ",
+        "first_four_contain": "SEO services to help clients increase their online visibility.",
+        "first_five_sub": "Maintenance and Support: ",
+        "first_five_contain":"Maintenance and support ensuring that clients' websites are up to date and running smoothly.",
+        "second_title": "IT Consulting",
+        "second_first_contain": "Project management consulting for a software development team.",
+        "second_second_contain": "IT project planning for your company.",
+        "third_title": "Other Services",
+        "third_first_contain": "Dynamic tables in excel with macros according to the needs of your company or business.",
+        "third_second_contain": "Design and publication of the corporate Brochure."
+
     }
 }

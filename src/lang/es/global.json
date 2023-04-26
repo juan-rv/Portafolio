@@ -23,5 +23,27 @@
         "portfolio" : "Portafolio",
         "curriculum" : "Curriculum",
         "contact" : "Contacto"
+    },
+    "services" : {
+        "title": "Servicios",
+        "containt_titel" : "Bienvenido a la sección de servicios. Como desarrollador web, ofrezco una amplia gama de servicios para ayudar a las empresas y organizaciones a alcanzar sus objetivos en línea.",
+        "first_title": "Diseño y Desarrollo Web",
+        "first_first_sub": "Diseño Web: ",
+        "first_first_contain": "Creación de diseños personalizados y unicos para sitios web, que reflejen la identidad de la marca.",
+        "first_second_sub": "Desarrollo Web: ",
+        "first_second_contain": "Creación de aplicaciones web personalizadas, que satisfagan las necesidades específicas de los clientes.",
+        "first_third_sub": "Creación de Sitios web desde 0: ",
+        "first_third_contain": "Servicios completos de creación de sitios web desde 0, partiendo de la planificación hasta la implementación.",
+        "first_four_sub": "Optimización de motores de busqueda: ",
+        "first_four_contain": "Servicios de SEO para ayudar a los clientes a aumentar su visibilidad en línea.",
+        "first_five_sub": "Mantenimiento y Soporte: ",
+        "first_five_contain":"Mantenimiento y soporte garantizando que los sitios web de los clientes estén actualizados y funcionando sin problemas.",
+        "second_title": "Consultoría IT",
+        "second_first_contain": "Asesoramiento sobre gestión de proyectos para un equipo de desarrollo de software.",
+        "second_second_contain": "Planificación de proyectos TI para su empresa.",
+        "third_title": "Demás Servicios",
+        "third_first_contain": "Tablas dinámicas en excel con macros deacuerdo a las necesidades de su empresa o comercio.",
+        "third_second_contain": "Diseño y publicación del Brochure empresarial."
+
     }
 }

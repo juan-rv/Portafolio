@@ -1,35 +1,54 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { services } from "../api/services";
 import "../styles/servicios.css";
 
 const Servicios = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="services_contain">
       <div className="services">
         <div className="text_services">
-          <h1> Servicios. </h1>
-          <h2>
-            Bienvenido a mi sección de servicios. Como desarrollador web,
-            ofrezco una amplia gama de servicios para ayudar a las empresas y
-            organizaciones a alcanzar sus objetivos en línea.
-          </h2>
+          <h1>{t("services.title")}</h1>
+          <h2>{t("services.containt_titel")}</h2>
         </div>
       </div>
 
       <div className="contain_card">
-        {services.map((service) => {
-          console.log(service.servicios);
-          return (
-            <div key={service.id} className="cards">
-              <h2>{service.name}</h2>
-              <p>{service.resume.uno}</p>
-              <p>{service.resume.dos}</p>
-              <p>{service.resume.tres}</p>
-              <p>{service.resume.cuatro}</p>
-              <p>{service.resume.cinco}</p>
-            </div>
-          );
-        })}
+        <div className="cards">
+          <h2>{t("services.first_title")}</h2>
+          <p>
+            <strong>{t("services.first_first_sub")}</strong>
+            {t("services.first_first_contain")}
+          </p>
+          <p>
+            <strong>{t("services.first_second_sub")}</strong>
+            {t("services.first_second_contain")}
+          </p>
+          <p>
+            <strong>{t("services.first_third_sub")}</strong>
+            {t("services.first_third_contain")}
+          </p>
+          <p>
+            <strong>{t("services.first_four_sub")}</strong>
+            {t("services.first_four_contain")}
+          </p>
+          <p>
+            <strong>{t("services.first_five_sub")}</strong>
+            {t("services.first_five_contain")}
+          </p>
+        </div>
+        <div className="cards">
+          <h2>{t("services.second_title")}</h2>
+          <p>{t("services.second_first_contain")}</p>
+          <p>{t("services.second_second_contain")}</p>
+        </div>
+        <div className="cards">
+          <h2>{t("services.third_title")}</h2>
+          <p>{t("services.third_first_contain")}</p>
+          <p>{t("services.third_second_contain")}</p>
+        </div>
       </div>
     </div>
   );
