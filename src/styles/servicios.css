@@ -3,25 +3,30 @@
 }
 
 .text_services {
-        background-color: #161b221a;
+    background-color: #161b221a;
     width: 90%;
     padding: 10px;
     margin: auto;
     margin-bottom: 30px;
-    border-bottom: solid 3px #30363d;
+    border-bottom: solid 1px #30363d;
     
+}
+
+.text_services h1 {
+    font-size: 50px;
+        color: whitesmoke;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+
 }
 
 .text_services h2 {
     color: whitesmoke;
     text-align: center;
     font-weight: 600;
+    font-size: 35px;
 
-}
-
-.text_services h3 {
-        color: #c9d1d9;
-        text-align: center;
 }
 
 
@@ -44,12 +49,91 @@
 
 .cards h2 {
     color: #c9d1d9;
-    font-size: 29px;
+    font-size: 40px;
     border-bottom: solid 0.5px #6e7681;
     margin-top: 0;
+     text-align: center;
+        background: rgba(73, 75, 77, 0.411);
 }
 
 .cards p {
     color: #a7adb6;
-    font-size: 18px;
+    font-size: 28px;
+}
+
+@media (max-width: 767px) { 
+
+    .text_services {
+        margin-top: 5px;
+    }
+
+    .text_services h1 {
+        font-size: 45px;
+        color: whitesmoke;
+        text-align: center;
+        margin: 0;
+    }
+
+    .text_services h2 {
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .contain_card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        margin: 5px;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .cards h2 {
+        font-size: 28px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        background: rgba(73, 75, 77, 0.411);
+    }
+
+    .cards p {
+        text-align: center;
+    }
+}
+
+
+/* responsive design for tablets */
+
+@media (min-width: 768px) and (max-width: 1034px) {
+
+.text_services h1 {
+        font-size: 45px;
+        color: whitesmoke;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contain_card {
+        width: 90%;
+    }
+
+    .cards {
+        padding: 10px;
+        margin: 9px;
+        margin-bottom: 20px ;
+    }
+
+    .cards h2 {
+        text-align: center;
+        background: rgba(73, 75, 77, 0.411);
+        font-size: 34px;
+    }
+
+    .cards p {
+        text-align: justify;
+        font-size: 20px;
+    }
 }

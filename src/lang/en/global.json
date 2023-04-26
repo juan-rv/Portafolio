@@ -15,7 +15,13 @@
     },
     "footer" : {
         "rights" : "All rights reserved.",
-        "title" : "This website is owned and operated by"
-        
+        "title" : "This website is owned and operated by"  
+    },
+    "navBar" : {
+        "home" : "Home",
+        "services" : "Services",
+        "portfolio" : "Portfolio",
+        "curriculum" : "Curriculum",
+        "contact" : "Contact"
     }
 }

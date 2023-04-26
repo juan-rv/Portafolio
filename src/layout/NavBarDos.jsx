@@ -38,11 +38,11 @@ const NavBarDos = () => {
         </button>
         {isOpen && (
           <div className="burger-menu">
-            <NavLink to="/home">Inicio</NavLink>
-            <NavLink to="/services">Servicios</NavLink>
-            <NavLink to="/portfolio">Portafolio</NavLink>
-            <NavLink to="/curriculum">Curriculum</NavLink>
-            <NavLink to="/contact">Contacto</NavLink>
+            <NavLink to="/home"> {t("navBar.home")}</NavLink>
+            <NavLink to="/services"> {t("navBar.services")}</NavLink>
+            <NavLink to="/portfolio"> {t("navBar.portfolio")}</NavLink>
+            <NavLink to="/curriculum"> {t("navBar.curriculum")}</NavLink>
+            <NavLink to="/contact"> {t("navBar.contact")}</NavLink>
           </div>
         )}
       </div>

@@ -42,7 +42,7 @@ const HeaderNav = () => {
     <header className="header">
       {navBar ? (
         <div className="first_nav">
-          <img src={image} />
+          <img src={image} alt="Juan" />
           <h3>Juan Rodríguez</h3>
         </div>
       ) : (
@@ -56,7 +56,7 @@ const HeaderNav = () => {
                 to="/home"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Inicio
+                {t("navBar.home")}
               </NavLink>
             </li>
             <li>
@@ -64,7 +64,7 @@ const HeaderNav = () => {
                 to="/services"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Servicios
+                {t("navBar.services")}
               </NavLink>
             </li>
 
@@ -73,7 +73,7 @@ const HeaderNav = () => {
                 to="/portfolio"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Portafolio
+                {t("navBar.portfolio")}
               </NavLink>
             </li>
             <li>
@@ -81,7 +81,7 @@ const HeaderNav = () => {
                 to="/curriculum"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Curriculum
+                {t("navBar.curriculum")}
               </NavLink>
             </li>
             <li>
@@ -89,7 +89,7 @@ const HeaderNav = () => {
                 to="/contact"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                Contacto
+                {t("navBar.contact")}
               </NavLink>
             </li>
           </ul>

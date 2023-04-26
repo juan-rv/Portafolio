@@ -16,5 +16,12 @@
         "rights": "Todos los derechos reservados.",
         "title" : "Este sitio web es propiedad y administrado por"
 
+    },
+    "navBar" : {
+        "home" : "Inicio",
+        "services" : "Servicios",
+        "portfolio" : "Portafolio",
+        "curriculum" : "Curriculum",
+        "contact" : "Contacto"
     }
 }
