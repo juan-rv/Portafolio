@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import "../styles/contacto.css";
 
@@ -64,6 +65,8 @@ const Contacto = () => {
     message: "",
   });
 
+  const [t, i18n] = useTranslation("global");
+
   function handleChange(e) {
     setInput((input) => ({
       ...input,
@@ -113,7 +116,9 @@ const Contacto = () => {
   return (
     <div className="contain_form">
       <div className="contain">
-        <h1>Me encantaría saber sobre ti, ponte en contacto 👋</h1>
+        <div className="contact_title">
+          <h1>{t("contact.title")}</h1>
+        </div>
         <form
           className="first_contain"
           ref={form}
@@ -126,6 +131,7 @@ const Contacto = () => {
                 placeholder="Nombre"
                 name="user_name"
                 onChange={(e) => handleChange(e)}
+                value={input.user_name}
               />
               {errors.user_name && <h4>{errors.user_name}</h4>}
             </div>
@@ -135,6 +141,7 @@ const Contacto = () => {
                 placeholder="Apellido"
                 name="user_lastName"
                 onChange={(e) => handleChange(e)}
+                value={input.user_lastName}
               />
               {errors.user_lastName && <h4>{errors.user_lastName}</h4>}
             </div>
@@ -145,6 +152,7 @@ const Contacto = () => {
                 placeholder="Telefono"
                 name="userPhone"
                 onChange={(e) => handleChange(e)}
+                value={input.userPhone}
               />
               {errors.userPhone && <h4>{errors.userPhone}</h4>}
             </div>
@@ -155,6 +163,7 @@ const Contacto = () => {
                 placeholder="Email"
                 name="userEmail"
                 onChange={(e) => handleChange(e)}
+                value={input.userEmail}
               />
               {errors.userEmail && <h4>{errors.userEmail}</h4>}
             </div>
@@ -165,6 +174,7 @@ const Contacto = () => {
                 placeholder="Mensaje"
                 name="message"
                 onChange={(e) => handleChange(e)}
+                value={input.message}
               />
               {errors.message && <h4>{errors.message}</h4>}
             </div>

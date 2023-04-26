@@ -68,5 +68,8 @@
         "seven_title":"RecipeBook.",
         "seven_content_one":"RecipeBook es una aplicación web full stack que permite a los usuarios explorar y buscar recetas utilizando la API de Spoonacular. La aplicación ha sido desarrollada utilizando tecnologías como React, Redux, Node.js, Express y PostgreSQL.",
         "seven_content_two":"La aplicación web cuenta con varias funcionalidades, como la capacidad de buscar recetas utilizando diferentes criterios de búsqueda, como el nombre, el tipo de dieta o el puntaje. Los usuarios también pueden crear una cuenta e iniciar sesión para agregar sus propias recetas al sitio web y compartirlas con otros usuarios. También se ha implementado un sistema de filtrado de recetas por diferentes criterios, como el tipo de dieta, la puntuación y el orden alfabético. Esto permite a los usuarios encontrar fácilmente las recetas que están buscando y obtener información detallada sobre ellas, como la lista de ingredientes, el tiempo de preparación y las instrucciones."
+    },
+    "contact" : {
+        "title" : "Me encantaría saber sobre ti, ponte en contacto 👋."
     }
 }

@@ -2,20 +2,22 @@
     padding-top: 90px;
 }
 .contain {
-    background-color: #0d1117;
-    width: 60%;
+    background-color: #0d1117; 
+    width: 90%;
     padding: 16px;
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #30363d;
     border-radius: 4px;
 }
-
-.contain h1 {
+.contact_title {
+    margin-bottom: 40px;
+    border-bottom: solid 1px #30363d;
+}
+.contact_title h1 {
     color: #c9d1d9;
     text-align: center;
     font-size: 35px;
-    border-bottom: solid 1px #30363d;
 }
 
 .first_contain {
@@ -31,7 +33,7 @@
 }
  .name input[type=text]
  {
-     width: 90%;
+    width: 90%;
     height: 40px;
     font-size: 25px;
     color: #c9d1d9;
@@ -43,7 +45,7 @@
 }
 
 .second_contain {
-    width: 75%;
+    width: 90%;
     margin: 40px;
 }
 
