@@ -37,7 +37,10 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+                <a target="_blank" href="https://www.tiktok.com/@kingkong_five">
+              Linkk to
+            </a>
+            
           </div>
         </div>
 
