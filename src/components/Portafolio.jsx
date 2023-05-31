@@ -37,7 +37,7 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-                <a target="_blank" href="https://www.tiktok.com/@kingkong_five">
+                <a target="_blank" href="https://kingkongfive.netlify.app/">
               Linkk to
             </a>
             
