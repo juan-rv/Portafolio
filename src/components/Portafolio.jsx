@@ -38,12 +38,19 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
+<<<<<<< HEAD
             <button className="link_to">
               {" "}
               <a href="https://kingkongfive.netlify.app/" target="_blank">
                 Link
               </a>
             </button>
+=======
+                <a target="_blank" href="https://kingkongfive.netlify.app/">
+              Linkk to
+            </a>
+            
+>>>>>>> afbb26222bb69552b9398da749721c3364265db2
           </div>
         </div>
 
