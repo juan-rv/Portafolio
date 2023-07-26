@@ -30,14 +30,15 @@
     align-items: center;
     justify-content: center;
 }
+
 .img_project img {
     width: 300px;
     height: 200px;
-    
+
 }
 
 .contain_projects {
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 .card_project {
@@ -50,15 +51,15 @@
     transition: background-color 0.9s ease-out;
 }
 
-.card_project:hover{
+.card_project:hover {
     background-color: #222a36c7;
     border: solid 1.5px #30363d;
 
 }
 
-.content_card_project h2 {     
-        font-size: 30px;
-        color: #c9d1d9;
+.content_card_project h2 {
+    font-size: 30px;
+    color: #c9d1d9;
 }
 
 .content_card_project p {
@@ -66,10 +67,16 @@
     color: #a7adb6;
 }
 
+.content_card_project h4 {
+    color: #c9d1d9;
+    font-size: 20px;
+    margin-left: 38px;
+}
+
 .content_card_project ul {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     list-style: none;
 }
 
@@ -79,12 +86,35 @@
     color: #a7adb6;
 }
 
+.link_to {
+    background: #7179857a;
+    color: rgb(218, 213, 213);
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 100px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
 
-@media (max-width: 767px) { 
+.link_to a {
+    text-decoration: none;
+    color: rgb(218, 213, 213);
+}
+
+.link_to:hover {
+    background: #717985b6;
+}
+
+
+
+@media (max-width: 767px) {
 
     .portfolio {
-    padding: 15px;
-}
+        padding: 15px;
+    }
+
     .card_project {
         width: 100%;
         display: block;
@@ -93,10 +123,12 @@
     .img_project {
         margin-top: 15px;
     }
+
     .img_project img {
-    width: 250px;
-    height: 200px;    
+        width: 250px;
+        height: 200px;
     }
+
     .content_card_project h2 {
         text-align: center;
     }
@@ -115,10 +147,11 @@
         display: block;
     }
 
-    
+
     .img_project {
         margin-top: 15px;
     }
+
     .content_card_project h2 {
         text-align: center;
     }

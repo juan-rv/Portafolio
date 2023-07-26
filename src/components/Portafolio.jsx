@@ -25,6 +25,7 @@ const Portafolio = () => {
 
           <div className="content_card_project">
             <h2>{t("portfolio.first_title")}</h2>
+            <hr />
             <p>{t("portfolio.first_content_one")}</p>
             <p>{t("portfolio.first_content_two")}</p>
             <article>
@@ -37,7 +38,12 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to">
+              {" "}
+              <a href="https://kingkongfive.netlify.app/" target="_blank">
+                Link
+              </a>
+            </button>
           </div>
         </div>
 
@@ -48,6 +54,7 @@ const Portafolio = () => {
 
           <div className="content_card_project">
             <h2>{t("portfolio.second_title")}</h2>
+            <hr />
             <p>{t("portfolio.second_content_one")}</p>
             <p>{t("portfolio.second_content_two")}</p>
 
@@ -61,7 +68,12 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to">
+              {" "}
+              <a href="https://jvtorres.netlify.app/" target="_blank">
+                Link
+              </a>
+            </button>
           </div>
         </div>
 
@@ -72,6 +84,7 @@ const Portafolio = () => {
 
           <div className="content_card_project">
             <h2>{t("portfolio.third_title")}</h2>
+            <hr />
             <p>{t("portfolio.third_content_one")}</p>
             <p>{t("portfolio.third_content_two")}</p>
 
@@ -85,7 +98,7 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to"> Link </button>
           </div>
         </div>
 
@@ -96,6 +109,7 @@ const Portafolio = () => {
 
           <div className="content_card_project">
             <h2>{t("portfolio.four_title")}</h2>
+            <hr />
             <p>{t("portfolio.four_content_one")}</p>
             <p>{t("portfolio.four_content_two")}</p>
             <article>
@@ -108,7 +122,7 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to"> Link </button>
           </div>
         </div>
 
@@ -118,6 +132,7 @@ const Portafolio = () => {
           </div>
           <div className="content_card_project">
             <h2>{t("portfolio.five_title")}</h2>
+            <hr />
             <p>{t("portfolio.five_content_one")}</p>
             <p>{t("portfolio.five_content_two")}</p>
             <article>
@@ -130,7 +145,7 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to"> Link </button>
           </div>
         </div>
 
@@ -140,6 +155,7 @@ const Portafolio = () => {
           </div>
           <div className="content_card_project">
             <h2>{t("portfolio.six_title")}</h2>
+            <hr />
             <p>{t("portfolio.six_content_one")}</p>
             <p>{t("portfolio.six_content_two")}</p>
             <article>
@@ -152,7 +168,11 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to">
+              <a href="https://wetravel-app.vercel.app/" target="_blank">
+                Link
+              </a>
+            </button>
           </div>
         </div>
 
@@ -162,6 +182,7 @@ const Portafolio = () => {
           </div>
           <div className="content_card_project">
             <h2>{t("portfolio.seven_title")}</h2>
+            <hr />
             <p>{t("portfolio.seven_content_one")}</p>
             <p>{t("portfolio.seven_content_two")}</p>
             <article>
@@ -174,7 +195,11 @@ const Portafolio = () => {
                 <li>Redux</li>
               </ul>
             </article>
-            <button> Link </button>
+            <button className="link_to">
+              <a href="https://pi-recipebook.netlify.app/" target="_blank">
+                Link
+              </a>
+            </button>
           </div>
         </div>
       </div>
